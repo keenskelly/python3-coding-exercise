@@ -12,9 +12,9 @@ class ApiClient:
         # Extract event properties from JSON matching {"event": "register", "user": { "id": <ID>, "email": "<EMAIL>" } }
         p = re.compile('.*(\d+), "email": "(.*?)".*')
         for event in events:
-            # Format URI with event properties as /user/register/ID/EMAIL
             m = p.match(event)
             if m is not None:
+                # Format URI with event properties as /user/register/ID/EMAIL
                 resource_uri = "/user/register/" + m.group(1) + "/" + m.group(2)
 
                 # Make API HTTP call
