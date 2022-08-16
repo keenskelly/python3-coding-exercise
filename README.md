@@ -10,7 +10,7 @@ other languages that I have written in, including Perl, PHP, and CoffeeScript.
 Please find herein a simple function that is exactly ten lines as my submission of "ideal". This can
 be executed simply with `python3 api_client.py`. I chose to use a mini-representation of something
 that would be useful in the world of back-end systems automation and integration: a script that may
-receive some data from one source and pass it to another by way of a RESTful HTTP API interface.
+receive some data from one source and pass it to another destination by way of a RESTful HTTP API interface.
 
 I used this opportunity to explore python3 beyond simply writing a function, but also to understand
 code structure, imports, CLI invocation, Class structures/methods, possible approaches to dependency
