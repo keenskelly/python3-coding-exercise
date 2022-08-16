@@ -1,14 +1,8 @@
-# ref: https://docs.python.org/3/tutorial/datastructures.html
 from collections import deque
-# ref: https://docs.python.org/3/library/http.client.html
 import http.client
-# ref: https://docs.python.org/3/library/re.html
 import re
-# ref: https://docs.python.org/3/library/logging.html
 import logging
 
-# ref: https://docs.python.org/3/library/collections.html#collections.deque
-# ref: https://docs.python.org/3/tutorial/classes.html
 class ApiClient:
     def __init__(self, apihost="localhost"):
         self.apihost = apihost
